@@ -6,8 +6,6 @@ const getUser = () =>{
 }
 getUser()
 
-
-
 const displayUser = data =>{
   const users = data.results;
   const userDiv = document.getElementById("random-user");
